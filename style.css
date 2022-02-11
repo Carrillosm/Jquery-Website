@@ -1,0 +1,147 @@
+.topnav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+  }
+  
+ 
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .topnav a.active {
+    background-color: #b1a5c4;
+    color: white;
+  }
+
+  .title{
+    color:rgb(255, 255, 255);
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 60px;
+      font-family: 'Dancing Script', cursive;
+  
+  }
+
+  .header {
+    padding: 2px;
+    text-align: center;
+    background: #b1a5c4;
+    color: white;
+    font-size: 30px;
+  }
+
+ #hdetail{
+  
+    margin-left:500px;
+    font-size:1.5rem;
+    line-height: 1px;
+  }
+
+  footer {
+    background-color: rgb(103, 112, 121);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  #accordion{
+    color: #fff;
+    line-height: 42px;
+    display: block;
+    font-size: 12pt;
+    width: 80%;
+    text-indent: 10px;
+    margin-top:300px;
+    margin:0 auto;
+
+    
+  }
+
+  #container{
+    width:100%;
+    height:700px;
+  }
+
+  #progressbar .ui-progressbar-value {
+    background-color: rgb(200, 189, 212);
+    
+  }
+  #progressbar1 .ui-progressbar-value {
+    background-color: rgb(200, 189, 212);
+  }
+
+  #progressbar2 .ui-progressbar-value {
+    background-color: rgb(200, 189, 212);
+  }
+  #progressbar{
+    width:50%;
+    margin-top:40px;  
+  }
+  #progressbar1{
+    width:50%;
+    margin-top:40px;  
+  }
+  #progressbar2{
+    width:50%;  
+    margin-top:40px;
+  }
+
+.appointment{
+  width:100%;
+  text-align: center;
+  margin-top:50px;
+  font-size: 50px;
+  color:rgb(0, 0, 0);
+
+}
+.class{
+  text-align: center;
+  font-size:30px;
+  color:rgb(212, 182, 212);
+}
+
+
+  .list{
+    text-align:justify;
+    font-size:20px;
+    margin-top:150px;
+    
+  }
+
+  #datepicker ,#pick{
+
+    font-size:1.25rem;
+    margin-top:-300px;
+    margin-left:20px;
+    text-align:left;
+
+  }
+
+  .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+
+    border: 1px solid #AB9889;
+    background: #a47c63;
+    font-weight: normal;
+    color: #ffffff;
+  }
+
+  #detail{
+    margin-top:100px;
+   margin-left:500px;
+    font-size:1.5rem;
+    line-height: 1px;
+  }
